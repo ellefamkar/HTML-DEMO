@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Marigold Web Development - A showcase of professional web development practices"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Marigold Web Development | Home</title>
+
+    <style>
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+      }
+
+      :root {
+        --primary-color: #1a4c49;
+        --secondary-color: #ebb81b;
+        --light-bg: #f0f0f0;
+        --text-color: #1a4c49;
+        --white: #ffffff;
+      }
+
+      html {
+        font-size: 62.5%;
+        line-height: 1.5;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: var(--white);
+        color: var(--text-color);
+      }
+
+      .container {
+        max-width: 1280px;
+        margin: 0 auto;
+      }
+
+      .header {
+        background-color: var(--primary-color);
+        color: var(--white);
+        text-align: center;
+        padding: 10px 30px;
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header-title {
+        font-size: 1.9rem;
+        font-weight: bold;
+        color: var(--secondary-color);
+      }
+
+      .navbar {
+        padding: 10px;
+      }
+
+      .navbar__list {
+        display: flex;
+        gap: 15px;
+      }
+
+      .navbar__link {
+        color: var(--white);
+        font-size: 1.4rem;
+        text-decoration: none;
+        padding: 5px 15px;
+        display: inline-block;
+        border-radius: 7px;
+        transition: 0.3s ease-in-out;
+      }
+
+      .navbar__link--active {
+        font-weight: 600;
+      }
+
+      .navbar__link:hover {
+        color: var(--primary-color);
+        background-color: var(--white);
+      }
+
+      .main-content {
+        padding: 20px;
+        text-align: center;
+      }
+
+      .main-content__section {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .main-content__img {
+        width: 500px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .main-content__paragraph {
+        font-size: 1.6rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align: justify;
+        text-indent: 2.5rem;
+      }
+
+      .footer {
+        padding: 30px 20px;
+        text-align: center;
+        background-color: var(--light-bg);
+        color: var(--text-color);
+      }
+
+      .footer__copyright {
+        font-size: 1.4rem;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Check the desktop demo clicking on "See Demo" -->
+
+    <div class="container">
+      <header class="header">
+        <h1 class="header-title">MARIGOLD TEAM</h1>
+
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="#" class="navbar__link navbar__link--active">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#about-us" class="navbar__link">About us</a>
+            </li>
+            <li class="navbar__item">
+              <a
+                href="#"
+                target="_blank"
+                class="navbar__link"
+                rel="noopener noreferrer"
+                >See demo</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- main section -->
+      <main class="main-content">
+        <section class="main-content__section">
+          <img
+            class="main-content__img"
+            src="https://meetmarigold.com/wp-content/uploads/2024/09/General-Thank-you-page-bottom-one-third_2160x2160-768x768.png"
+            alt="Marigold Team Members collaborating in the office"
+          />
+          <p id="about-us" class="main-content__paragraph">
+            Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing
+            elit. Est illum quo neque. Distinctio iusto alias laudantium saepe!
+            Debitis deserunt nemo doloribus nam earum vel eaque, voluptate fuga
+            laudantium dolores non animi quam delectus explicabo neque
+            repudiandae! Corporis ratione pariatur unde impedit. Sit
+            necessitatibus amet, facilis mollitia voluptatibus ipsam autem
+            quisquam ab, minima atque accusamus provident omnis accusantium,
+            velit quis non tenetur. Quia cum, at quae maxime vero impedit,
+            accusamus non velit iste, qui magnam id! Odio, nemo? Sequi sint
+            quisquam error quae repellat commodi a, dolorum possimus aspernatur
+            molestias corrupti magnam distinctio. Sequi, a corporis soluta eaque
+            aliquid eum!
+          </p>
+          <p class="main-content__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illum
+            quo neque. Distinctio iusto alias laudantium saepe! Debitis deserunt
+            nemo doloribus nam earum vel eaque, voluptate fuga laudantium
+            dolores non animi quam delectus explicabo neque repudiandae!
+            Corporis ratione pariatur unde impedit tenetur. Sit necessitatibus
+            amet, facilis mollitia voluptatibus ipsam autem quisquam ab, minima
+            atque accusamus provident omnis accusantium, velit quis non tenetur.
+            Quia cum, at quae maxime vero impedit, accusamus non velit iste, qui
+            magnam id! Odio, nemo? Sequi sint quisquam error quae repellat
+            commodi a, dolorum possimus aspernatur molestias corrupti magnam
+            distinctio. Sequi, a corporis soluta eaque aliquid eum!
+          </p>
+        </section>
+      </main>
+
+      <!-- footer section  -->
+      <footer class="footer">
+        <p class="footer__copyright">
+          &copy; 2025 Marigold. All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
