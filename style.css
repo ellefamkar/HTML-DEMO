@@ -87,7 +87,7 @@ body {
 }
 
 .main-content__img {
-  width: 500px;
+  width: 550px;
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
@@ -111,4 +111,16 @@ body {
 .footer__copyright {
   font-size: 1.4rem;
   font-weight: 500;
+}
+
+
+@media screen and (max-width: 767.9px) {
+  .header {
+    flex-direction: column;
+    padding: 20px 20px 10px;
+  }
+
+  .header-title {
+    font-size: 2.5rem;
+  }
 }
